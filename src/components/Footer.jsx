@@ -6,7 +6,7 @@ const Footer = ({ itemsCounter, completedCounter, alarmOn }) => {
 				<span className="p-1">Tasks : {itemsCounter}</span> 
 				<span className="p-1">Completed : {completedCounter}</span> 
 			</div>
-				<p>*Note: We have a small bug on notification</p> 
+				<p>*Note: We have a small bug on notification <br>(output : 1 Notification per second)</p> 
 		</>
 	)
 }
